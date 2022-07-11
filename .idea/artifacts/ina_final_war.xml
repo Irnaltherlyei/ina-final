@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ina-final:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ina-final</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ina-final-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ina-final:war exploded" />
+    </root>
+  </artifact>
+</component>
